@@ -19,7 +19,7 @@ This dashboard allows you to **fetch, edit, and update JSON locale files** with 
 
 - 🌍 View and manage translation/localization keys
 - ✍️ Edit translation values across multiple locales
-- 📤 Push updates back to the server via API
+- 📤 Push updates back to the server via FTP
 - 📁 Connects to a JSON file used by the live `360 Business` project
 
 ---
