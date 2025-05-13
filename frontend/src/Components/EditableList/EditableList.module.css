@@ -1,0 +1,42 @@
+.listContainer {
+  background: #e9ecef;
+  padding: 20px;
+  margin: 10px 0;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 16px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addButton {
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 2rem;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #2f9e44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.addButton:hover {
+  background-color: #2b8a3e;
+}

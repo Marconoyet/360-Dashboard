@@ -1,0 +1,72 @@
+.navbar {
+  position: fixed; /* ✅ Keeps Navbar fixed at the top */
+  top: 0;
+  right: 0;
+  width: calc(100vw - 249px); /* ✅ Dynamic width */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #2c3e50;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* ✅ Ensures it stays above other elements */
+}
+:global(.lang-ar) .navbar {
+  right: auto;
+  left: 0;
+}
+
+.navTitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.navRight {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.navRight button,
+.navLeft button {
+  color: #2c3e50;
+  font-family: inherit;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  gap: 6px;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navLeft button:hover,
+.navRight button:hover {
+  background: #ddd;
+}
+
+.navRight button svg {
+  font-size: 22px;
+}
+
+.navLeft button svg {
+  font-size: 18px;
+}
+.saveButton {
+  color: var(primary);
+}

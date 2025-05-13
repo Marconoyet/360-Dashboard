@@ -1,0 +1,130 @@
+/* ✅ Main Container */
+.container {
+  background-color: #e9ecef;
+  padding: 30px;
+  padding-top: 80px;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+}
+
+/* ✅ Input Group */
+.inputGroup {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input {
+  font-family: inherit;
+  outline: none;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #e9ecef;
+  color: rgb(14, 14, 16);
+  background: #e9ecef;
+  display: block;
+  height: 36px;
+  width: 100%;
+}
+.input:hover {
+  border-color: #ccc;
+}
+.input:focus {
+  border-color: var(--primary);
+  background: #fff;
+}
+
+/* ✅ React Quill Editor */
+.ql-container {
+  height: 200px;
+}
+
+/* ✅ Button Group */
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.saveButton {
+  background: #28a745;
+  color: white !important;
+}
+
+.deleteButton {
+  background: #dc3545;
+  color: white !important;
+}
+
+.saveButton:hover {
+  background: #1b6b2d !important;
+}
+
+.deleteButton:hover {
+  background: #ae2a38 !important;
+}
+
+.instructorGrid {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.instructorItem {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 140px;
+}
+
+.instructorItem:hover {
+  border-color: #ccc;
+}
+
+.selected {
+  border-color: #4caf50;
+  background-color: #f0fff0;
+}
+
+.instructorImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 0.51rem;
+  border: 2px solid #fff;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 6px;
+  transition: all 0.3s;
+}
+.instructorItem:hover > .instructorImg {
+  border: 2px solid #4caf50;
+}
+.instructorName {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: block;
+}

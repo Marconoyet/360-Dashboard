@@ -1,0 +1,43 @@
+:root {
+  --primary: #d93749;
+  --secondary: rgba(12, 26, 48, 1);
+  --grey-color: #f9fafb;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+/* Arabic-specific styles */
+.lang-ar body {
+  font-family: "Alexandria", serif;
+}
+
+.lang-en body {
+  font-family: "Inter", sans-serif;
+}
+
+.lang-ar .ql-editor {
+  direction: rtl;
+  text-align: right;
+}
+
+.lang-ar .mce-content-body {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.flex-view {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}

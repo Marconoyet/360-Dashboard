@@ -1,0 +1,21 @@
+{
+  "home": "الرئيسية",
+  "courses": "الدورات",
+  "partner": "الشركاء",
+  "about": "من نحن",
+  "contact": "اتصل بنا",
+  "teams": "الفرق",
+  "blog": "المدونة",
+  "buttons": {
+    "saveToServer": "حفظ على الخادم",
+    "addItem": "إضافة عنصر",
+    "manageBlogs": "إدارة المدونات",
+    "manageCourses": "إدارة الدورات",
+    "addNewBlog": "إضافة مدونة جديدة",
+    "addNewCourse": "إضافة دورة جديدة",
+    "saveBlog": "حفظ المدونة",
+    "deleteBlog": "حذف المدونة",
+    "saveCourse": "حفظ الدورة",
+    "deleteCourse": "حذف الدورة"
+  }
+}

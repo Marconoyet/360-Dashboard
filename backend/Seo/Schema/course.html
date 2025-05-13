@@ -1,0 +1,93 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Course",
+    "@id": "{{ course_url }}",
+    "name": "{{ course_name }}",
+    "description": "{{ course_description }}",
+
+    "publisher": {
+      "@type": "Organization",
+      "name": "360 Business Partners",
+      "url": "https://360business-partners.com/"
+    },
+
+    "provider": {
+      "@type": "Organization",
+      "name": "360 Business Partners",
+      "url": "https://360business-partners.com/"
+    },
+
+    "image": [
+      "{{ course_image_url }}"
+    ],
+
+    "offers": [{
+      "@type": "Offer",
+      "category": "Paid",
+      "priceCurrency": "{{ course_currency }}",
+      "price": {{ course_price }}
+    }],
+
+    "datePublished": "{{ course_publish_date }}",
+    "educationalLevel": "{{ course_level }}",
+    "about": "{{ course_about }}",
+    "inLanguage": "{{ primary_language }}",
+    "availableLanguage": ["en", "ar"],
+
+    "syllabusSections": [
+      {{ syllabus_sections_json }}
+    ],
+
+    "educationalCredentialAwarded": [{
+      "@type": "EducationalOccupationalCredential",
+      "name": "{{ credential_name }}",
+      "credentialCategory": "Certificate",
+      "issuer": [{
+        "@type": "Organization",
+        "name": "360 Business Partners",
+        "url": "https://360business-partners.com/",
+        "offers": [{
+          "@type": "Offer",
+          "category": "Paid",
+          "price": {{ course_price }},
+          "priceCurrency": "{{ course_currency }}"
+        }]
+      }]
+    }],
+
+    "hasCourseInstance": [
+      {
+        "@type": "CourseInstance",
+        "courseMode": "Blended",
+        "location": {
+          "@type": "Place",
+          "name": "360 Business Partners Training Center",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Northern Ring Br Rd, Al Izdihar",
+            "addressLocality": "Riyadh",
+            "addressRegion": "Riyadh Province",
+            "postalCode": "12487",
+            "addressCountry": "SA"
+          }
+        },
+        "courseSchedule": {
+          "@type": "Schedule",
+          "duration": "PT3H",
+          "repeatFrequency": "Monthly",
+          "repeatCount": 12,
+          "startDate": "{{ course_start_date }}",
+          "endDate": "{{ course_end_date }}"
+        },
+        "instructor": [{{ instructor_list }}]
+
+      },
+      {
+        "@type": "CourseInstance",
+        "courseMode": "Online",
+        "courseWorkload": "P3M"
+      }
+    ]
+  }
+</script>

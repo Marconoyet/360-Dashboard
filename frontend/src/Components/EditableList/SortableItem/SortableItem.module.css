@@ -1,0 +1,98 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.label {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputs :last-child {
+  margin-bottom: 0rem;
+}
+
+.input {
+  font-family: inherit;
+  outline: none;
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #e9ecef;
+  color: rgb(14, 14, 16);
+  background: #e9ecef;
+  display: block;
+  height: 36px;
+  width: 100%;
+}
+.input:hover {
+  border-color: #ccc;
+}
+.input:focus {
+  border-color: var(--primary);
+  background: #fff;
+}
+.controllers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  gap: 1rem;
+}
+
+.deleteIcon {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #ffc9c9;
+  border-radius: 50%;
+  color: #f03e3e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.deleteIcon:hover {
+  background-color: #f03e3e;
+  color: #fff;
+}
+.dragHandle {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #a5d8ff;
+  border-radius: 50%;
+  color: #1864ab;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dragHandle:hover {
+  background-color: #1864ab;
+  color: #fff;
+}

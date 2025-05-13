@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "courses": "Courses",
+  "partner": "Partner",
+  "about": "About",
+  "contact": "Contact",
+  "teams": "Teams",
+  "blog": "Blog",
+  "buttons": {
+    "saveToServer": "Save to Server",
+    "addItem": "Add Item",
+    "manageBlogs": "Manage Blogs",
+    "manageCourses": "Manage Courses",
+    "addNewBlog": "Add New Blog",
+    "addNewCourse": "Add New Course",
+    "saveBlog": "Save Blog",
+    "deleteBlog": "Delete Blog",
+    "saveCourse": "Save Course",
+    "deleteCourse": "Delete Course"
+  }
+}

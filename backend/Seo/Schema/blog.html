@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ blog_url }}"
+    },
+    "headline": "{{ blog_title }}",
+    "alternativeHeadline": "{{ blog_subtitle_or_secondary_title }}",
+    "description": "{{ blog_meta_description }}",
+    "image": "{{ blog_featured_image }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ author_name }}",
+      "url": "https://360business-partners.com/instructors/{{ author_slug }}"
+    },
+    "editor": "{{ editor_name }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "360 Business Partners",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://360business-partners.com/assets/logo.png"
+      }
+    },
+    "datePublished": "{{ publish_date }}",
+    "dateModified": "{{ modified_date }}",
+    "inLanguage": "{{ language_code }}",
+    "articleBody": "{{ stripped_down_html_or_plain_text_excerpt }}"
+  }
+</script>
