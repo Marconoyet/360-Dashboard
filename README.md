@@ -9,7 +9,7 @@ This dashboard allows you to **fetch, edit, and update JSON locale files** with 
 ## 🗂️ Project Structure
 360-dashboard/
 ├── backend/ # Express.js backend to handle locale JSON operations
-├── frontend/ # React frontend (Vite or CRA) with translation editor UI
+├── frontend/ # React frontend (Vite) with translation editor UI
 └── .gitignore # Ignores node_modules and sensitive data
 
  
